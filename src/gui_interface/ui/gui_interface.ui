@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>880</width>
+    <height>176</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>eMOB Tooling Report Creator</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>880</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuInsert_CSV">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="option_activate_logging"/>
+    <addaction name="button_exit"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="button_about"/>
+   </widget>
+   <addaction name="menuInsert_CSV"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="button_about">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="button_exit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionInsert_CSV_files">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Insert CSV files</string>
+   </property>
+  </action>
+  <action name="actionDoors">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Doors</string>
+   </property>
+  </action>
+  <action name="option_activate_logging">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Activate logging</string>
+   </property>
+  </action>
+  <action name="button_k06">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>K06</string>
+   </property>
+  </action>
+  <action name="button_k02_option">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>K02</string>
+   </property>
+  </action>
+  <action name="button_k02_pv">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>K02_PV</string>
+   </property>
+  </action>
+  <action name="button_k02_reduced">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>K02_Reduced</string>
+   </property>
+  </action>
+  <action name="button_fpt_option">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>FPT</string>
+   </property>
+  </action>
+  <action name="button_fpt_reduced">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>FPT_Reduced</string>
+   </property>
+  </action>
+  <action name="button_merge_tool">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>MergeTool</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
